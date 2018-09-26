@@ -7,8 +7,9 @@ function addElementToBeginningOfArray(array, element){
    return array
 }
 
-function destructivleAddElementToBeginningOfArray(xRay, newEl) {
- return xRay.unshift(newEl)
+function destructivelyAddElementToBeginningOfArray(xRay, newEl) {
+  xRay.unshift(newEl)
+ return xRay
 
 }
 
