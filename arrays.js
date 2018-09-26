@@ -13,7 +13,7 @@ function destructivelyAddElementToBeginningOfArray(xRay, newEl) {
 }
 
 function addElementToEndOfArray(xRay, element){
-  newArray = xRay;
+  newArray = xRay.slice();
   newArray.push(element);
   return newArray
   
