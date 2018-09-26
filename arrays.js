@@ -13,7 +13,12 @@ function destructivelyAddElementToBeginningOfArray(xRay, newEl) {
 
 }
 
-
+function addElementToEndOfArray(xRay, element){
+  newArray = xRay;
+  newArray.push(element);
+  return newArray
+  
+}
 function accessElementInArray(xRay, index) {
   return xRay[index]
 }
