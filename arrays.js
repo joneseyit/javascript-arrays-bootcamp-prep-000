@@ -22,7 +22,7 @@ function accessElementInArray(xRay, index) {
   return xRay[index]
 }
 
-function destructivleyRemoveElementToBeginningOfArray (xRay) {
+function destructivelyRemoveElementToBeginningOfArray (xRay) {
   xRay.shift();
   return xRay;
 }
