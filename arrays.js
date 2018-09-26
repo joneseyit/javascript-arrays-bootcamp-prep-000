@@ -27,6 +27,10 @@ function destructivleyRemoveElementToBeginningOfArray (xRay) {
   return xRay;
 }
 
+function destructivelyAddElementToEndOfArray(xRay, element){
+  
+}
+
 function removeElementFromBeginningOfArray (xRay){
   return xRay.slice(1);
 }
